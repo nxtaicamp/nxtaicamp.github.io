@@ -10,10 +10,10 @@
 
 html, body {
     margin: 0;
-    padding-bottom: 30px;
 }
 
 .nav {
+    text-align: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -24,18 +24,17 @@ html, body {
 }
 
 .nav_img {
-    float: left;
+    display: inline;
     width: 30px;
     padding-left: 15px;
     padding-top: 7.5px;
 }
 
 .nav_text {
-    float: left;
 }
 
 .nav_link {
-    float: right;
+    display: inline-block;
     text-decoration: none;
 }
 
@@ -100,8 +99,6 @@ a:hover {
 
 .footer {
     text-align: center;
-    padding: 50px;
-    border-top: 2px solid var(--mid-gray);
 }
 
 
@@ -155,10 +152,9 @@ a:hover {
 
 .how_img {
     float: right;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-left: 50px;
-    width: 600px;
-    border: 7px solid var(--mid-gray);
+    margin-bottom: 80px;
 }
 
 .home_img {
@@ -166,5 +162,4 @@ a:hover {
     width: 600px;
     margin-left: 0;
     margin-right: 50px;
-    border: 7px solid var(--mid-gray);
 }
