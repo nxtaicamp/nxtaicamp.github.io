@@ -122,9 +122,11 @@ a:hover {
 }
 
 .hook {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+}
+
+.hook_logo {
+    float: right;
+    width: 100px;
 }
 
 .hook_title {
