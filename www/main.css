@@ -1,0 +1,168 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --accent: #7ED957;
+    --soft-gray: #FAFAFA;
+    --mid-gray: #D9DDE0;
+}
+
+html, body {
+    margin: 0;
+}
+
+.nav {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--soft-gray);
+    border-bottom: 1px solid var(--mid-gray);
+    width: 100%;
+}
+
+.nav_img {
+    display: inline;
+    width: 30px;
+    padding-left: 15px;
+    padding-top: 7.5px;
+}
+
+.nav_text {
+}
+
+.nav_link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav_link:hover {
+    color: var(--accent);
+}
+
+.nav_block {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 0;
+}
+
+.nav_block:first-of-type {
+    margin-right: 15px;
+}
+
+.content {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    background-color: var(--accent);
+    border: none;
+    color: white;
+    padding: 5px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    border: 2px solid var(--accent);
+    background-color: white;
+    color: var(--accent);
+    padding: 3px 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card {
+    border: 2px solid var(--accent);
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    text-align: center;
+}
+
+
+.landing_content {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+
+.section__bare {
+    font-size: 20px;
+}
+
+.section {
+    margin-bottom: 100px;
+}
+
+.section:first-of-type {
+    margin-top: 100px;
+}
+
+.hook {
+}
+
+.hook_logo {
+    float: right;
+    width: 100px;
+}
+
+.hook_title {
+    font-size: 100px;
+}
+
+.hook_para {
+    font-weight: normal;
+}
+
+.hook_special {
+    font-weight: bold;
+    color: var(--accent);
+}
+
+.hook_button {
+    font-size: 30px;
+    width: 500px;
+}
+
+.hook_button__sec {
+    width: 400px;
+    font-size: 25px;
+}
+
+.how_img {
+    float: right;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-bottom: 80px;
+    width: 600px;
+}
+
+.home_img {
+    float: left;
+    width: 600px;
+    margin-left: 0;
+    margin-right: 50px;
+}
